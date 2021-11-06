@@ -1,0 +1,175 @@
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    .bacground{
+        background: url('../img/bg.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+        
+    }
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    
+
+    .left {
+        margin: 0px;
+        display: inline-block;
+        position: absolute;
+        display: inline-block;
+        left: 34px;
+        top: 18px;
+        /* border: 1px solid red; */
+    }
+
+    .left img {
+        width: 30px;
+        filter: invert(100%);
+    }
+
+    #logname {
+        font-size: 22px;
+        float: right;
+        padding-left: 10px;
+    }
+
+    .mid {
+        margin: 0px;
+        display: inline-block;
+        width: 40%;
+        /* margin: 15px auto; */
+        padding-left: 10%;
+        /* border: 1px solid rgb(123, 255, 0); */
+
+    }
+
+
+    .right {
+        margin: 0px;
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 7px;
+        /* border: 1px solid rgb(255, 238, 0); */
+
+    }
+
+    .right li {
+        display: inline-block;
+        padding-top: 8px;
+    }
+
+    .right li a {
+        color: white;
+        text-decoration: none;
+        margin: 0px 4px;
+    }
+    .right ul{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 12px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        opacity: 0.7;
+        text-decoration: underline;
+
+    }
+
+    .fa {
+        padding: 7px;
+        width: 20px;
+        text-align: center;
+        border-radius: 25%
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #121315;
+        border: 1px solid white;
+
+
+    }
+
+    .fa-twitter {
+        background: #121315;
+        border: 1px solid white;
+        
+    }
+    .container{
+        display: inline-block;
+        
+        border: 1px solid white;
+        margin: 34px 56px;
+        padding: 50px;
+        width: 83%;
+        border-radius: 11px;
+        text-align: center;
+        margin-top: 128px;
+    }
+    .container h1{
+        font-size: 50px;
+        margin: 3px;
+        padding: 12px;
+    }
+    
+    .btn{
+        font-family: 'Baloo Bhai 2', cursive;
+        border: 1px solid white;
+        background-color: #141416;
+        color: white;
+        border-radius: 8px;
+        margin: 20px 9px;
+        padding: 3px 10px;
+        cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+.forM{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.forM input{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    display: block;
+    width: 501px;
+    margin: 13px auto;
+    padding: 4px 22px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    background-color: #141416;
+}
+.forM div{
+    display: block;
+
+}
+.gender{
+    padding: 12px;
+    font-size: 23px;
+}
